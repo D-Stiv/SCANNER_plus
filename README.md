@@ -8,3 +8,9 @@
 
 ## Run the model
 `python3 run.py --dataset_name {name of the dataset}`
+
+
+
+## Datasets
+* __metr-la__ dataset could be found here: https://www.kaggle.com/datasets/annnnguyen/metr-la-dataset
+* __pems-bay__ dataset could be found here: https://zenodo.org/records/4263971#.Yt5GCOxKj0o
