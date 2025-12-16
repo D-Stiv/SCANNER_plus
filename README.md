@@ -1,5 +1,5 @@
 # SCANNER+
-Implementation of the paper "SCANNER+: Neighborhood-based self-enrichment approach for traffic speed prediction".
+Implementation of the paper "SCANNER+: Neighborhood-based self-enrichment approach for traffic speed prediction", accepted for publication in the ACM Transactions on Spatial Algorithms and Systems (TSAS) Special Issue on Urban Mobility.
 
 ## Summary
 In this repository, you can find the code to train and evalute SCANNER+, a novel neighborhood-based self-enrichment approach for traffic speed prediction. SCANNER+ learns effective node representations in dynamic road traffic settings.
@@ -16,6 +16,16 @@ source venv/bin/activate
 pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2
 pip install torch-geometric
 pip install -r requirements.txt
+```
+
+If you find this repository useful for your research, please consider citing the following paper:
+```bash
+@article{gounoueTSAS25,
+  author  = {Gounoue Guiffo, Steve and Markwald, Marco and Yu, Ran and Demidova, Elena},
+  title   = {{SCANNER+}: Neighborhood-based self-enrichment approach for traffic speed prediction},
+  journal = {ACM Transactions on Spatial Algorithms and Systems},
+  year    = {2025},
+}
 ```
 
 <!-- 
