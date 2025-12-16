@@ -18,15 +18,6 @@ pip install torch-geometric
 pip install -r requirements.txt
 ```
 
-If you find this repository useful for your research, please consider citing the following paper:
-```bash
-@article{gounoueTSAS25,
-  author  = {Gounoue Guiffo, Steve and Markwald, Marco and Yu, Ran and Demidova, Elena},
-  title   = {{SCANNER+}: Neighborhood-based self-enrichment approach for traffic speed prediction},
-  journal = {ACM Transactions on Spatial Algorithms and Systems},
-  year    = {2025},
-}
-```
 
 <!-- 
 ## Data
@@ -60,4 +51,15 @@ metr-la and pems-bay datasets from the paper:
 Configuration parameters are in the file ```config.py```. Example with metr-la for maximum 200 epochs.
 ```bash
 python3 main.py --dataset_name metr-la --epochs 200
+```
+
+
+If you find this repository useful for your research, please consider citing the following paper:
+```bash
+@article{gounoueTSAS25,
+  author  = {Gounoue Guiffo, Steve and Markwald, Marco and Yu, Ran and Demidova, Elena},
+  title   = {{SCANNER+}: Neighborhood-based self-enrichment approach for traffic speed prediction},
+  journal = {ACM Transactions on Spatial Algorithms and Systems},
+  year    = {2025},
+}
 ```
