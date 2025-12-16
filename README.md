@@ -2,7 +2,7 @@
 Implementation of the paper "SCANNER+: Neighborhood-based self-enrichment approach for traffic speed prediction", accepted for publication in the ACM Transactions on Spatial Algorithms and Systems (TSAS) Special Issue on Urban Mobility.
 
 ## Summary
-In this repository, you can find the code to train and evalute SCANNER+, a novel neighborhood-based self-enrichment approach for traffic speed prediction. SCANNER+ learns effective node representations in dynamic road traffic settings.
+In this repository, you can find the code to train and evalute SCANNER+, a novel neighborhood-based self-enrichment approach for traffic speed prediction. SCANNER+ learns effective node representations in dynamic road traffic settings. This work extends [SCANNER](https://doi.org/10.1145/3589132.3625653), which utilizes correlation-based pattern detection and a self-enrichment mechanism ([SCANNER repository](https://github.com/D-Stiv/SCANNER)).
 
 ## Setup
 - Create a new virtual environment, and activate.
