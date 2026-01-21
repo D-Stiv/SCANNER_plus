@@ -1,0 +1,15 @@
+# MIT License
+#
+# Copyright (c) 2026 D-Stiv
+#
+# See the LICENSE file in the repository root for full license text.
+
+
+# pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2
+# pip install torch-geometric
+# pip install -r requirements.txt
+datatable==1.1.0
+numpy==1.23.5
+pandas==2.2.3
+scikit-learn==1.6.1
+scipy==1.13.1
